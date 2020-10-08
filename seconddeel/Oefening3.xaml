@@ -1,0 +1,40 @@
+﻿<Window x:Class="seconddeel.Oefening3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:seconddeel"
+        mc:Ignorable="d"
+        Title="Oefening3" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Button Grid.Column="1" Grid.Row="1" >
+            <WrapPanel>
+                <Image Height="50" Width="50" Source="C:\Users\Latha\source\repos\WPF\WpfApp2\Bhavana.jpg"/>
+                <StackPanel>
+                    <TextBlock Text="Login" Margin="5"/>
+                    <TextBlock Text="⇒" HorizontalAlignment="Center" Margin="5"/>
+                </StackPanel>
+            </WrapPanel>
+        </Button>
+       
+
+
+
+
+
+    </Grid>
+</Window>
